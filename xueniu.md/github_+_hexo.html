@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="github + hexoEdit# github + hexo  大概流程： 搭建 Node.js 环境  搭建 Git 环境  GitHub 注册和配置  安装配置 Hexo  关联 Hexo 与 GitHub Pages 具体操作： 搭建 Node.js 环境mac下记得使用nvm 或者brew install  安装hexo， 需要设置：npm config set registry ht">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/xueniu.md/github_+_hexo.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="github + hexoEdit# github + hexo  大概流程： 搭建 Node.js 环境  搭建 Git 环境  GitHub 注册和配置  安装配置 Hexo  关联 Hexo 与 GitHub Pages 具体操作： 搭建 Node.js 环境mac下记得使用nvm 或者brew install  安装hexo， 需要设置：npm config set registry ht">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/xueniu.md/image/-SVG-undefined.png">
+<meta property="og:image" content="http://example.com/xueniu.md/image/-SVG-undefined.png">
+<meta property="og:image" content="http://example.com/xueniu.md/image/-1619078561709.png">
+<meta property="article:published_time" content="2021-04-22T09:00:45.651Z">
+<meta property="article:modified_time" content="2021-04-22T00:15:00.000Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/xueniu.md/image/-SVG-undefined.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="page-" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/xueniu.md/github_+_hexo.html" class="article-date">
+  <time class="dt-published" datetime="2021-04-22T09:00:45.651Z" itemprop="datePublished">2021-04-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="github-hexo"><a href="#github-hexo" class="headerlink" title="github + hexo"></a>github + hexo</h1><p><del><a target="_blank" rel="noopener" href="http://maxiang.io/#/?provider=evernote&guid=a0905e38-eac1-4f95-9518-be7a2e0523a4&notebook=Work">Edit</a></del># github + hexo</p>
+<hr>
+<h2 id="大概流程："><a href="#大概流程：" class="headerlink" title="大概流程："></a>大概流程：</h2><ol>
+<li><p>搭建 Node.js 环境</p>
+</li>
+<li><p>搭建 Git 环境</p>
+</li>
+<li><p>GitHub 注册和配置</p>
+</li>
+<li><p>安装配置 Hexo</p>
+</li>
+<li><p>关联 Hexo 与 GitHub Pages</p>
+<h2 id="具体操作："><a href="#具体操作：" class="headerlink" title="具体操作："></a>具体操作：</h2></li>
+<li><p>搭建 Node.js 环境<br>mac下记得使用nvm 或者brew install</p>
+</li>
+<li><p>安装hexo， 需要设置：npm config set registry <a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a></p>
+<blockquote>
+<p>root@xueniu scripts# npm install hexo-cli -g</p>
+<p>⸨░░░░░░░░░░░░░░░░░░⸩ ⠧ rollbackFailedOptional: verb npm-session 9ec95b4bf520f9cf</p>
+<p>⸨░░░░░░░░░░░░░░░░░░⸩ ⠧ rollbackFailedOptional: verb npm-session 9ec95b4bf520f9cf</p>
+<p>and root@xueniu scripts#</p>
+<p>root@xueniu scripts# npm config set registry <a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a></p>
+<p>root@xueniu scripts# npm install hexo-cli -g</p>
+<p>/usr/local/bin/hexo -&gt; /usr/local/lib/node_modules/hexo-cli/bin/hexo</p>
+</blockquote>
+</li>
+</ol>
+<p>root@xueniu scripts# cd douxiaoniu77.github.io/ </p>
+<p>root@xueniu douxiaoniu77.github.io# ls </p>
+<p>.gitignore _config.yml package-lock.json scaffolds themes </p>
+<p>_config.landscape.yml node_modules package.json source </p>
+<p>root@xueniu douxiaoniu77.github.io# npm install </p>
+<p>added 6 packages from 6 contributors in 1.08s</p>
+<p>15 packages are looking for funding </p>
+<p> run <code>npm fund</code> for details</p>
+<p>root@xueniu douxiaoniu77.github.io# </p>
+<p>发布github后空白，可能权限问题</p>
+<p>重新安装</p>
+<p>For Mac / Linux 用户 </p>
+<p>如果在尝试安装 Hexo 的过程中出现 EACCES 权限错误，请遵循 由 npmjs 发布的指导 修复该问题。强烈建议 不要 使用 root、sudo 等方法覆盖权限</p>
+<ol>
+<li>安装nvm - nodejs<blockquote>
+<p>enter xueniu@xueniu Software$ curl -o- <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh">https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh</a> | bash</p>
+<p>% Total % Received % Xferd Average Speed Time Time Time Current</p>
+<p>Dload Upload Total Spent Left Speed</p>
+<p>100 13226 100 13226 0 0 6707 0 0:00:01 0:00:01 –:–:– 6706</p>
+<p>=&gt; nvm is already installed in /Users/xueniu/.nvm, trying to update using git</p>
+<p>=&gt; =&gt; Compressing and cleaning up git repository</p>
+<p>……..</p>
+</blockquote>
+</li>
+</ol>
+<p>确认安装</p>
+<blockquote>
+<p>xueniu@xueniu Software<img src="image/-SVG-undefined.png" alt="-SVG-undefined.png"></p>
+</blockquote>
+<p>安装nodeJs</p>
+<blockquote>
+<p>xueniu@xueniu Software$ nvm install node</p>
+<p>Downloading and installing node v16.0.0…</p>
+<p>Downloading <a target="_blank" rel="noopener" href="https://nodejs.org/dist/v16.0.0/node-v16.0.0-darwin-x64.tar.gz">https://nodejs.org/dist/v16.0.0/node-v16.0.0-darwin-x64.tar.gz</a>…</p>
+<p>######################################################################## 100.0%</p>
+<p>Computing checksum with shasum -a 256</p>
+<p>Checksums matched!</p>
+<p>Now using node v16.0.0 (npm v7.10.0)</p>
+<p>Creating default alias: default -&gt; node (-&gt; v16.0.0)</p>
+<p>xueniu@xueniu Software$</p>
+</blockquote>
+<p>安装hexo</p>
+<blockquote>
+<p>xueniu@xueniu Software$ npm install -g hexo-cli</p>
+<p>added 66 packages, and audited 67 packages in 9s</p>
+</blockquote>
+<p>初始化</p>
+<blockquote>
+<p>xueniu@xueniu Software$ hexo init blog</p>
+<p>INFO Cloning hexo-starter <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-starter.git">https://github.com/hexojs/hexo-starter.git</a></p>
+<p>INFO Install dependencies</p>
+<p>INFO Start blogging with Hexo!</p>
+<p>xueniu@xueniu Software$</p>
+<p>xueniu@xueniu Software<img src="image/-SVG-undefined.png" alt="-SVG-undefined.png"></p>
+<p>npm install</p>
+</blockquote>
+<p>启动hexo server，指定端口</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">xueniu@xueniu blog$ hexo server  -p 4001</span><br><span class="line">INFO  Validating config</span><br><span class="line">INFO  Start processing&#96;</span><br><span class="line">Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.</span><br><span class="line">Deprecated as of 10.7.0. Please use highlight(code, options) instead.</span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;highlightjs&#x2F;highlight.js&#x2F;issues&#x2F;2277</span><br><span class="line">INFO  Hexo is running at http:&#x2F;&#x2F;localhost:4001 . Press Ctrl+C to stop.**strong text**</span><br></pre></td></tr></table></figure>
+
+<p>关联github</p>
+<blockquote>
+<p>配置 _config.yml中`、</p>
+<p>执行 hexo clean</p>
+<p>hexo g</p>
+<p>hexo d</p>
+</blockquote>
+<p>github Settings中记得source 选择为master </p>
+<p><img src="image/-1619078561709.png" alt="-1619078561709.png"></p>
+<p>访问github 地址，出现404错误，原因 _config.yml 中设置有问题，repo设置问题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;douxiaoniu77&#x2F;douxiaoniu77.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<p>%23%20github%20+%20hexo%20%20%0A%0A%0A———-%0A%0A%0A%23%23%20%u5927%u6982%u6D41%u7A0B%uFF1A%0A%0A1.%20%u642D%u5EFA%20Node.js%20%u73AF%u5883%0A%0A2.%20%u642D%u5EFA%20Git%20%u73AF%u5883%0A%0A3.%20GitHub%20%u6CE8%u518C%u548C%u914D%u7F6E%0A%0A4.%20%u5B89%u88C5%u914D%u7F6E%20Hexo%0A%0A5.%20%u5173%u8054%20Hexo%20%u4E0E%20GitHub%20Pages%0A%0A%23%23%20%u5177%u4F53%u64CD%u4F5C%uFF1A%0A%0A1.%20%20%u642D%u5EFA%20Node.js%20%u73AF%u5883%0A%0Amac%u4E0B%u8BB0%u5F97%u4F7F%u7528nvm%20%u6216%u8005brew%20install%0A%0A2.%20%20%u5B89%u88C5hexo%uFF0C%20%u9700%u8981%u8BBE%u7F6E%uFF1Anpm%20config%20set%20registry%20http%3A//registry.npm.taobao.org%0A%0A%3E%20root@xueniu%20scripts%23%20npm%20install%20hexo-cli%20-g%0A%3E%20%u2E28%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2E29%20%u2827%20rollbackFailedOptional%3A%20verb%20npm-session%209ec95b4bf520f9cf%0A%3E%20%u2E28%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2591%u2E29%20%u2827%20rollbackFailedOptional%3A%20verb%20npm-session%209ec95b4bf520f9cf%0A%3E%20and%20root@xueniu%20scripts%23%20%0A%3E%20root@xueniu%20scripts%23%20npm%20config%20set%20registry%20http%3A//registry.npm.taobao.org%0A%3E%20root@xueniu%20scripts%23%20npm%20install%20hexo-cli%20-g%0A%3E%20/usr/local/bin/hexo%20-%3E%20/usr/local/lib/node_modules/hexo-cli/bin/hexo%0A%0A%0Aroot@xueniu%20scripts%23%20cd%20douxiaoniu77.github.io/%0Aroot@xueniu%20douxiaoniu77.github.io%23%20ls%0A.gitignore%09%09_config.yml%09%09package-lock.json%09scaffolds%09%09themes%0A_config.landscape.yml%09node_modules%09%09package.json%09%09source%0Aroot@xueniu%20douxiaoniu77.github.io%23%20npm%20install%0Aadded%206%20packages%20from%206%20contributors%20in%201.08s%0A%0A15%20packages%20are%20looking%20for%20funding%0A%20%20run%20%60npm%20fund%60%20for%20details%0A%0Aroot@xueniu%20douxiaoniu77.github.io%23%20%0A%0A%0A%0A%u53D1%u5E03github%u540E%u7A7A%u767D%uFF0C%u53EF%u80FD%u6743%u9650%u95EE%u9898%0A%0A%0A%u91CD%u65B0%u5B89%u88C5%0A%0AFor%20Mac%20/%20Linux%20%u7528%u6237%0A%u5982%u679C%u5728%u5C1D%u8BD5%u5B89%u88C5%20Hexo%20%u7684%u8FC7%u7A0B%u4E2D%u51FA%u73B0%20EACCES%20%u6743%u9650%u9519%u8BEF%uFF0C%u8BF7%u9075%u5FAA%20%u7531%20npmjs%20%u53D1%u5E03%u7684%u6307%u5BFC%20%u4FEE%u590D%u8BE5%u95EE%u9898%u3002%u5F3A%u70C8%u5EFA%u8BAE%20%u4E0D%u8981%20%u4F7F%u7528%20root%u3001sudo%20%u7B49%u65B9%u6CD5%u8986%u76D6%u6743%u9650%0A1.%20%u5B89%u88C5nvm%20-%20nodejs%0A%0A%3E%20enter%20xueniu@xueniu%20Software%24%20%20curl%20-o-%20https%3A//raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh%20%7C%20bash%0A%3E%20%20%25%20Total%20%20%20%20%25%20Received%20%25%20Xferd%20%20Average%20Speed%20%20%20Time%20%20%20%20Time%20%20%20%20%20Time%20%20Current%0A%3E%20%20Dload%20%20Upload%20%20%20Total%20%20%20Spent%20%20%20%20Left%20%20Speed%0A%3E%20%20100%2013226%20%20100%2013226%20%20%20%200%20%20%20%20%200%20%20%206707%20%20%20%20%20%200%20%200%3A00%3A01%20%200%3A00%3A01%20–%3A–%3A–%20%206706%0A%3E%20%20%3D%3E%20nvm%20is%20already%20installed%20in%20/Users/xueniu/.nvm%2C%20trying%20to%20update%20using%20git%0A%3E%20%20%3D%3E%20%3D%3E%20Compressing%20and%20cleaning%20up%20git%20repository%0A%3E%20%20……..%0A%0A%u786E%u8BA4%u5B89%u88C5%0A%3E%20%20xueniu@xueniu%20Software%24%20command%20-v%20nvm%0A%3E%20%20nvm%0A%3E%20%20xueniu@xueniu%20Software%24%20%0A%0A%u5B89%u88C5nodeJs%0A%3E%20%20xueniu@xueniu%20Software%24%20nvm%20install%20node%20%0A%3E%20%20Downloading%20and%20installing%20node%20v16.0.0…%0A%3E%20%20Downloading%20https%3A//nodejs.org/dist/v16.0.0/node-v16.0.0-darwin-x64.tar.gz…%0A%3E%20%20%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%23%20100.0%25%0A%3E%20%20Computing%20checksum%20with%20shasum%20-a%20256%0A%3E%20%20Checksums%20matched%21%0A%3E%20%20Now%20using%20node%20v16.0.0%20%28npm%20v7.10.0%29%0A%3E%20%20Creating%20default%20alias%3A%20default%20-%3E%20node%20%28-%3E%20v16.0.0%29%0A%3E%20%20xueniu@xueniu%20Software%24%20%0A%0A%u5B89%u88C5hexo%0A%3E%20%20xueniu@xueniu%20Software%24%20npm%20install%20-g%20hexo-cli%0A%3E%20%20added%2066%20packages%2C%20and%20audited%2067%20packages%20in%209s%0A%0A%u521D%u59CB%u5316%0A%3E%20%20xueniu@xueniu%20Software%24%20hexo%20init%20blog%0A%3E%20%20INFO%20%20Cloning%20hexo-starter%20https%3A//github.com/hexojs/hexo-starter.git%0A%3E%20%20INFO%20%20Install%20dependencies%0A%3E%20%20INFO%20%20Start%20blogging%20with%20Hexo%21%0A%3E%20%20xueniu@xueniu%20Software%24%20%0A%0A%3E%20%20xueniu@xueniu%20Software%24%20cd%20blog%0A%3E%20%20xueniu@xueniu%20blog%24%20npm%20install%0A%0A%u542F%u52A8hexo%20server%uFF0C%u6307%u5B9A%u7AEF%u53E3%0A%0A%20%20%20%20xueniu@xueniu%20blog%24%20hexo%20server%20%20-p%204001%0A%20%20%20%20INFO%20%20Validating%20config%0A%20%20%20%20INFO%20%20Start%20processing%60%0A%20%20%20%20Deprecated%20as%20of%2010.7.0.%20highlight%28lang%2C%20code%2C%20…args%29%20has%20been%20deprecated.%0A%20%20%20%20Deprecated%20as%20of%2010.7.0.%20Please%20use%20highlight%28code%2C%20options%29%20instead.%0A%20%20%20%20https%3A//github.com/highlightjs/highlight.js/issues/2277%0A%20%20%20%20INFO%20%20Hexo%20is%20running%20at%20http%3A//localhost%3A4001%20.%20Press%20Ctrl+C%20to%20stop.<strong>strong%20text</strong>%0A%0A%u5173%u8054github%0A%3E%20%20%u914D%u7F6E%20_config.yml%u4E2D%60%u3001%0A%3E%20%20%u6267%u884C%20hexo%20clean%0A%3E%20%20hexo%20g%0A%3E%20%20hexo%20d%0A%3E%20%0A%20%0A%0Agithub%20Settings%u4E2D%u8BB0%u5F97source%20%u9009%u62E9%u4E3Amaster%20%0A%21%5BAlt%20text%5D%28./1619078561709.png%29%0A%0A%u8BBF%u95EEgithub%20%u5730%u5740%uFF0C%u51FA%u73B0404%u9519%u8BEF%uFF0C%u539F%u56E0%20_config.yml%20%u4E2D%u8BBE%u7F6E%u6709%u95EE%u9898%uFF0Crepo%u8BBE%u7F6E%u95EE%u9898%0A%0A%20%20%20%20deploy%3A%0A%20%20%20%20%20%20type%3A%20git%0A%20%20%20%20%20%20repo%3A%20https%3A//github.com/douxiaoniu77/douxiaoniu77.github.io.git%0A%20%20%20%20%20%20branch%3A%20master%0A%0A%0A%0A%0A</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/xueniu.md/github_+_hexo.html" data-id="cknsnozhx0001mnjs821yeft7" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/04/22/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
